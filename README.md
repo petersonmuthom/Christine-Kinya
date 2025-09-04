@@ -1,4 +1,4 @@
-# Christine-Kinya.
+# Christine-Kinya
 a portfolio for Christine Kinya.
 
 made with HyperTextMarkupLanguage( HTML),
