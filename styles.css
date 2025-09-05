@@ -9,7 +9,9 @@
     outline: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-focus-ring-color: transparent;
+    
 }
+
 :root{
     --bg-color:  rgba(15, 15, 15, 0.356);
     --text-color1: #f3e7e7;
@@ -33,7 +35,7 @@ body{
     background-color: black;
 }
 header{
-    margin-top: -30px;
+    margin-top: -10px;
     position: fixed;
     backdrop-filter: blur(20px);
     background-color: #000000b6;
@@ -185,6 +187,9 @@ section {
     color: #ffffffee;
     font-size: 80px;
     margin-left: 80px;
+   font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .hero-text h2{
     flex: 1;
@@ -192,6 +197,9 @@ section {
     font-size: 80px;
     margin-left: 190px;
     margin-top: -10px;
+  font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .hero-text p{
     color: #AF7817;
@@ -210,6 +218,9 @@ section {
     margin-left: 340px;
     font-size: 50px;
     color: #ffffffc4;
+
+
+
 }
 .hero-img{
     flex: 1;
@@ -247,7 +258,9 @@ section {
     display: block;
     color: #ffffffee;
     font-size: 80px;
-    font-weight: 700;
+   font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .about-txt-2{
     width: 440px;        
@@ -302,7 +315,9 @@ section {
     width: fit-content;
     color:#ffffffee ;
     font-size: 80px;
-    font-weight: 700;
+       font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .port-txt span{
     display: block;
@@ -443,7 +458,9 @@ section {
     width: fit-content;
     color:#ffffffee ;
     font-size: 80px;
-    font-weight: 700;
+       font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .experience-txt span{
     display: block;
@@ -785,7 +802,7 @@ section {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 #reach-out{
-    height: 1000px;
+    height: 840px;
     padding: 0px 40px 0px 40px;
 }
 .reach-out-bg{
@@ -816,7 +833,9 @@ section {
     display: block;
     color:#ffffffee ;
     font-size: 80px;
-    font-weight: 700;
+       font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 .reach-out-img{
     flex: 1;
@@ -931,13 +950,23 @@ button:hover:before, button:focus:before {
 button:active {
     transform: scale(0.9);
 }
+#the-end{
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+     font-family: "Courgette", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 80px; 
+  color: #AF7817;
+}
 #footer{
     background-color: var(--bg-color);
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 70px;
-    padding: 80px 200px 0px 200px;
+    padding: 80px 200px 0px 300px;
     height: 300px;
     border-top: 1px solid #af771767;
 }
@@ -946,7 +975,6 @@ button:active {
     border-radius: 50%;
     width: 70px;
     height: 70px;
-
 }
 .footer-logo-img img{
     width: 50px;
@@ -956,24 +984,54 @@ button:active {
 .reach-out-side-1{
     color: #ffffff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-family: "Fira Sans Condensed", sans-serif;
     text-align: left;   
     width: fit-content;
     display: block;
 }
-.reach-out-side-1 p i{
+.reach-out-side-1-1{
+    margin: -100px 0px 0px 220px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Fira Sans Condensed", sans-serif;
+    text-align: left;   
+    width: fit-content;
+    display: block;
+}
+.reach-out-side-1-1 a i{
     margin-bottom: 20px;
     color: var(--text-color2);
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 30px;
 }
-.reach-out-side-1 a i{
-    margin-bottom: 20px;
-    color: var(--text-color2);
+.reach-out-side-1 i{
+    color: #AF7817;
     font-size: 25px;
-    margin-right: 30px;
+     margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.reach-out-side-1-1 a{
+    margin: 0px 40px 0px 40px;
+}
+.reach-out-side-1-1 i{
+    color: #AF7817;
+    font-size: 25px;
+    padding: 0px 0px 0px 0px;
+}
+.reach-out-side-1-1 a{
+    color: var(--text-color1);
+}
+.reach-out-side-1-1 a:hover{
+    color: var(--text-color2);
+    transition: 0.5s all ease;
+    transform: scale(0.9);
+}
+.reach-out-side-1-1 a:visited{
+    color: var(--text-color1);
 }
 #footer-2{
     justify-content: center;
