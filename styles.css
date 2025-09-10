@@ -1449,8 +1449,19 @@ button:active {
     #reach-out{
         padding: 0px 17px 0px 17px;
     }
-     .reach-out-img{
-        margin-right: 4%;
+    .reach-out-img{
+        margin-right: 2%;
+    }
+    .reach-out-side-2{
+        margin: 40px 0px 0px -40px; 
+    }
+    .reach-out-txt span{
+        margin-left: -13%;
+    }
+}
+@media (max-width: 970px) {
+    .reach-out-txt span{
+        margin-left: -17%;
     }
 }
 @media (max-width: 880px) {
@@ -1498,6 +1509,21 @@ button:active {
     }
     .experience-txt-11{
         margin-top: 40px;
+    }
+    .reach-out-side-2{
+        margin: 40px 0px 0px -80px; 
+    }
+    .reach-out-txt span{
+        margin-left: -30%;
+    }
+    .contacts-inputs{
+        width: 340px;
+        height: 44px;
+        font-size: 18px;
+    }
+    button{
+        padding: 9px -10px;
+        
     }
 }
 @media (max-width: 780px) {
