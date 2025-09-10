@@ -1028,6 +1028,7 @@ button:active {
 }
 .contact-item-1 span{
     color: var(--text-color1);
+    font-size: 18px;
 }
 .reach-out-side-1-1 a i:hover{
     color: var(--text-color2);
@@ -1085,11 +1086,18 @@ button:active {
     .experience-img{
         margin-right: 18%;
     }
-     .judgeeeyyy-img-1{
+    .judgeeeyyy-img-1{
         margin-right: 10%;
     }
     .j-img-1{
         margin-right: 10%;
+    }
+    .cre-img-1{
+        margin-right: 10%;
+    }
+    .creative-img{
+        height: 410px;
+        width: 300px;
     }
 }
 @media (max-width: 1270px) {
@@ -1123,8 +1131,6 @@ button:active {
     .judgeeeyyy-img-1{
         margin-right: 8%;
     }
-
-    
 }
 @media (max-width: 1130px) {
  
@@ -1226,7 +1232,7 @@ button:active {
         gap: 20px; 
     }
     .experience-txt-3 span{
-        margin-left: 8%;
+        margin-left: 7%;
     }
     .experience-txt-4{
         margin-left: 8%;
@@ -1249,6 +1255,10 @@ button:active {
     .j-img-1{
         margin-right: 10%;
     }
+    .j-img-1 img{
+        height: 400px;
+        width: 270px;
+    }
     .experience-txt-7 span{
         margin-left: 25%;
     }
@@ -1257,7 +1267,26 @@ button:active {
         width: 330px;
     }
     .experience-txt-9 span{
+        margin-left: 16%;
+    }
+    .experience-txt-10{
         margin-left: 10%;
+        width: 330px;
+    }
+    .cre-img-1{
+        margin-left: 20%
+    }
+    .cre-img-1 img{
+        height: 390px;
+        width: 290px;
+    }
+    .creative-img{
+        height: 390px;
+        width: 290px;
+    }
+    .creative-img-b{
+        height: 390px;
+        width: 270px;
     }
 }
 
@@ -1348,6 +1377,73 @@ button:active {
         height: 380px;
         width: 270px; 
     }
+    .judgeyy-section img{
+        height: 240px;
+        width: 350px;
+    }
+    .experience-txt-7 span{
+        margin-left: 26%;
+    }
+    .creative-section{
+        gap: 20px;
+    }
+    .creative-img{
+       height: 290px;
+        width: 200px;
+    }
+    .creative-section-2{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .creative-section-3{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .creative-img-b{
+       height: 290px;
+        width: 200px;
+    }
+  
+}
+@media (max-width: 880px) {
+    .experience-img{
+        margin-right: 5%;
+    }
+    .mibs-section{
+        margin-right: 10px;
+        gap: 17px; 
+    }
+    .mibs-1{
+        height: 400px;
+        width: 240px; 
+    }
+    .mibs-2{
+        height: 210px;
+        width: 350px;
+    }
+    .judgeeeyyy-img-1{
+        margin-right: 3%;
+    }
+    .judgeyy-section{
+        margin-top: 20px;
+        gap: 22px;
+    }
+    .judgeyy-section img{
+        height: 200px;
+        width: 310px;
+    }
+    .experience-txt-7 span{
+        margin-left: 28%;
+    }
+    .j-img-1{
+        margin-right: -2%;
+    }
+    .cre-img-1 img{
+        margin-right: -7%;
+    }
+    .experience-txt-10 {
+        margin-left: 8%;
+    }
 }
 @media (max-width: 780px) {
     #hero{
@@ -1399,6 +1495,82 @@ button:active {
         height: 380px;
         width: 270px;
     }
+     .experience-img{
+        margin-right: 3%;
+    }
+    .experience-txt{
+        margin-left: 10%;
+        font-size: 50px;
+    }
+    .experience-txt-2{
+        margin-left: 0%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+     .mibs-section{
+        margin-right: 8px;
+        gap: 14px; 
+    }
+    .mibs-1{
+        height: 310px;
+        width: 210px; 
+    }
+    .mibs-2{
+        height: 190px;
+        width: 320px;
+    }
+    .experience-txt-3 span{
+        margin-left: 4%;
+        font-size: 20px;
+    }
+    .experience-txt-4{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+    .douche-img-1{
+        height: 310px;
+        width: 210px;
+    }
+     .douche-img-2{
+        height: 310px;
+        width: 210px;
+    }
+    .experience-txt-5 span{
+        margin-left: 9%;
+        font-size: 20px;
+    }
+    .experience-txt-6{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+    .experience-txt-7 span{
+        margin-left: 24%;
+        font-size: 20px;
+    }
+    .experience-txt-8{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+    .cre-img-1 img{
+        margin-right: -10%;
+    }
+     .experience-txt-9 span{
+        margin-left: 14%;
+        font-size: 20px;
+    }
+    .experience-txt-10{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
     
 }
 @media (max-width: 773px) {
@@ -1419,6 +1591,18 @@ button:active {
     }
     .coach{
         gap: 20px;
+    }
+    .mibs-section{
+        margin-right: 8px;
+        gap: 14px; 
+    }
+    .mibs-1{
+        height: 290px;
+        width: 190px; 
+    }
+    .mibs-2{
+        height: 190px;
+        width: 320px;
     }
 }
 @media(max-width: 700px) {
