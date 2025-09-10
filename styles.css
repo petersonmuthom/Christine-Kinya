@@ -965,14 +965,15 @@ button:active {
     background-color: var(--bg-color);
     justify-content: center;
     display: flex;
+    align-content: center;
     flex-wrap: wrap;
-    gap: 70px;
-    padding: 80px 200px 0px 300px;
+   
+
     height: 300px;
     border-top: 1px solid #af771767;
 }
 .footer-logo-img{
-    margin-left: 160px;
+  gap: 20px;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -982,48 +983,57 @@ button:active {
     height: 50px;
     border-radius: 50%;
 }
-.reach-out-side-1{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
+.reach-out-side-1 {
+    padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  font-size: 18px;
     font-style: normal;
+    font-weight: 560;
     font-family: "Fira Sans Condensed", sans-serif;
-    text-align: left;   
-    width: fit-content;
- 
 }
-.reach-out-side-1-1{
-    margin: -100px 0px 0px 220px;
-    font-weight: 500;
-    font-size: 16px;
-    font-style: normal;
-    font-family: "Fira Sans Condensed", sans-serif;
-    text-align: left;   
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
 }
-.reach-out-side-1-1 ul li a i{
+.contact-item i {
+  color: var(--text-color2); 
+  font-size: 20px;
+}
+.contact-item span{
     color: var(--text-color1);
 }
-.reach-out-side-1-1 ul li a{
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  color: var(--text-color2);
+.reach-out-side-1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  font-size: 18px;
+    font-style: normal;
+    font-weight: 560;
+    font-family: "Fira Sans Condensed", sans-serif;
 }
-.reach-out-side-1 i{
-    color: #AF7817;
-    font-size: 25px;
-     margin-bottom: 20px;
-    padding: 0px 20px 0px 20px;
-   direction: column;
+.contact-item-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
 }
-.reach-out-side-1-1 a:hover{
+.contact-item-1 a {
+  color: var(--text-color2); 
+  font-size: 20px;
+}
+.contact-item-1 a i{
+    padding: 0 14px;
+}
+.contact-item-1 span{
+    color: var(--text-color1);
+}
+.reach-out-side-1-1 a i:hover{
     color: var(--text-color2);
     transition: 0.5s all ease;
-    transform: scale(0.9);
 }
-.reach-out-side-1-1 a:visited{
-    color: var(--text-color1);
-}
+
 #footer-2{
     justify-content: center;
     display: flex;
