@@ -1099,6 +1099,12 @@ button:active {
         height: 410px;
         width: 300px;
     }
+    .reach-out-side-2{
+       margin: 40px 0px 0px 20px; 
+    }
+    .reach-out-img{
+        margin-right: 22%;
+    }
 }
 @media (max-width: 1270px) {
     .hero-text{
@@ -1130,6 +1136,15 @@ button:active {
     }
     .judgeeeyyy-img-1{
         margin-right: 8%;
+    }
+    .newspaper-img{
+        margin-right: 4%;
+    }
+    .reach-out-img{
+        margin-right: 14%;
+    }
+    .reach-out-txt span{
+        margin-left: -2%;
     }
 }
 @media (max-width: 1130px) {
@@ -1231,6 +1246,9 @@ button:active {
     .douche-section{
         gap: 20px; 
     }
+    #experience{
+        padding: 0px 20px 0px 20px;
+    }
     .experience-txt-3 span{
         margin-left: 7%;
     }
@@ -1288,6 +1306,24 @@ button:active {
         height: 390px;
         width: 270px;
     }
+    .experience-txt-12 span{
+ 
+        margin-left: 12%;
+        width: 300px;
+    }
+     .experience-txt-11 span{
+        margin-left: 12%;
+        width: 300px;
+    }
+    #reach-out{
+        padding: 0px 20px 0px 20px;
+    }
+    .reach-out-img{
+        margin-right: 9%;
+    }
+    .reach-out-txt span{
+        margin-left: -4%;
+    }
 }
 
 @media (max-width: 1030px) {
@@ -1335,6 +1371,7 @@ button:active {
     }
     #portfolio{
         height: 2000px;
+        padding: 0px 17px 0px 17px;
     }
     .port-bg{
         height: 1800px;
@@ -1381,6 +1418,12 @@ button:active {
         height: 240px;
         width: 350px;
     }
+    #experience{
+        height: 6100px;
+    }
+    .experience-bg{
+        height: 5900px;
+    }
     .experience-txt-7 span{
         margin-left: 26%;
     }
@@ -1403,7 +1446,12 @@ button:active {
        height: 290px;
         width: 200px;
     }
-  
+    #reach-out{
+        padding: 0px 17px 0px 17px;
+    }
+     .reach-out-img{
+        margin-right: 4%;
+    }
 }
 @media (max-width: 880px) {
     .experience-img{
@@ -1443,6 +1491,13 @@ button:active {
     }
     .experience-txt-10 {
         margin-left: 8%;
+    }
+    .newspaper-img img{
+        height: 400px;
+        width: 290px; 
+    }
+    .experience-txt-11{
+        margin-top: 40px;
     }
 }
 @media (max-width: 780px) {
@@ -1566,6 +1621,18 @@ button:active {
         font-size: 20px;
     }
     .experience-txt-10{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+    .experience-txt-11 span{
+        margin-left: 2%;
+        font-weight: 500;
+        font-size: 16px;
+        width: 300px;
+    }
+    .experience-txt-12 span{
         margin-left: 2%;
         font-weight: 500;
         font-size: 16px;
