@@ -156,11 +156,11 @@ section {
   z-index: -1;
   color: #ffffffe3;
 }
-#nav-btn li a.btn:hover, button:focus {
+#nav-btn li a.btn:hover,:focus {
   color: #ffffffe3;
   border-radius: 10px;
 }
-#nav-btn li a.btn:hover:before, button:focus:before {
+#nav-btn li a.btn:hover:before,:focus:before {
     transition: 0.5s all ease;
     left: 0;
     right: 0;
@@ -1050,6 +1050,7 @@ button:active {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 500;
     font-size: 16px;
+      font-style: normal;
 }
 .footer-2-txt-2{
     color: #AF7817;
@@ -1145,6 +1146,10 @@ button:active {
     }
     .reach-out-txt span{
         margin-left: -2%;
+    }
+    #footer-2{
+        gap: 500px;
+        padding: 50px 70px 0px 70px;
     }
 }
 @media (max-width: 1130px) {
@@ -1324,6 +1329,10 @@ button:active {
     .reach-out-txt span{
         margin-left: -4%;
     }
+    #footer-2{
+        gap: 400px;
+        padding: 50px 80px 0px 80px;
+    }
 }
 
 @media (max-width: 1030px) {
@@ -1458,10 +1467,18 @@ button:active {
     .reach-out-txt span{
         margin-left: -13%;
     }
+    #footer-2{
+        gap: 300px;
+        padding: 50px 90px 0px 90px;
+    }
 }
 @media (max-width: 970px) {
     .reach-out-txt span{
         margin-left: -17%;
+    }
+    #footer-2{
+        gap: 200px;
+        padding: 50px 100px 0px 100px;
     }
 }
 @media (max-width: 880px) {
@@ -1514,16 +1531,25 @@ button:active {
         margin: 40px 0px 0px -80px; 
     }
     .reach-out-txt span{
-        margin-left: -30%;
+        margin-left: -40%;
     }
     .contacts-inputs{
         width: 340px;
         height: 44px;
         font-size: 18px;
     }
-    button{
-        padding: 9px -10px;
-        
+    .contact-left button{
+        margin-left: 240px;
+    }
+    #footer-2{
+        gap: 80px;
+        padding: 50px 0px 0px 0px;
+    }
+    .footer-2-txt{
+        font-size: 14px;
+    }
+    .footer-2-txt-2{
+        font-size: 14px;
     }
 }
 @media (max-width: 780px) {
@@ -1664,7 +1690,24 @@ button:active {
         font-size: 16px;
         width: 300px;
     }
-    
+     .reach-out-side-2{
+        margin: 40px 0px 0px -70px; 
+    }
+     .contacts-inputs{
+        width: 300px;
+        height: 42px;
+        font-size: 16px;
+    }
+    .reach-out-txt span{
+        margin-left: -77%;
+    }
+    .contact-left button{
+        margin-left: 200px;
+    }
+    #footer-2{
+        gap: 200px;
+        padding: 50px 100px 0px 100px;
+    }
 }
 @media (max-width: 773px) {
     .hero-text h1{
@@ -1696,6 +1739,9 @@ button:active {
     .mibs-2{
         height: 190px;
         width: 320px;
+    }
+     .reach-out-txt span{
+        margin-left: -80%;
     }
 }
 @media(max-width: 700px) {
