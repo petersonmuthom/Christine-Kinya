@@ -49,8 +49,7 @@ header{
 }
 .logo-img{
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    
     margin: -14px 0px 0px 0px;
 }
 .logo-img img{
@@ -125,7 +124,7 @@ section {
 #nav-btn li a.btn{
     
     margin-top: -20px;
-    font-size: 21px;
+    font-size: 20px;
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 500;
     display: inline-block;
@@ -1336,6 +1335,10 @@ button:active {
 }
 
 @media (max-width: 1030px) {
+    .navlist li a{
+        font-size: 20px;
+        margin: -10px 20px 0px 20px;
+    }
      #hero{
         height: 800px; 
     }
@@ -1482,6 +1485,14 @@ button:active {
     }
 }
 @media (max-width: 880px) {
+    .navlist li a{
+        font-size: 18px;
+        margin: -10px 18px 0px 18px;
+    }
+    #nav-btn li a.btn{
+        font-size: 18px;
+        padding: 8px 11px;
+    }
     .experience-img{
         margin-right: 5%;
     }
@@ -1582,14 +1593,14 @@ button:active {
         height: 670px;
     }
     .about-txt{
-        margin-left: 17vw;
-        font-size: 70px;
+        margin-left: 24%;
+        font-size: 50px;
     }
     .about-txt-2{
         margin-left: 0%;
         font-weight: 500;
         font-size: 16px;
-        width: 320px;
+        width: 300px;
     }
     .about-txt-2 span{
         font-size: 18px;
@@ -1602,12 +1613,18 @@ button:active {
         height: 380px;
         width: 270px;
     }
-     .experience-img{
-        margin-right: 3%;
-    }
-    .experience-txt{
-        margin-left: 10%;
+    .port-txt{
         font-size: 50px;
+        margin-left: 15%;
+    }
+    #experience{
+        height: 5200px;
+    }
+    .experience-bg{
+        height: 5100px;
+    }
+    .experience-img{
+        margin-right: 3%;
     }
     .experience-txt-2{
         margin-left: 0%;
@@ -1615,7 +1632,7 @@ button:active {
         font-size: 16px;
         width: 300px;
     }
-     .mibs-section{
+    .mibs-section{
         margin-right: 8px;
         gap: 14px; 
     }
@@ -1626,6 +1643,10 @@ button:active {
     .mibs-2{
         height: 190px;
         width: 320px;
+    }
+    .experience-txt{
+        font-size: 50px;
+        margin-left: 9%;
     }
     .experience-txt-3 span{
         margin-left: 4%;
@@ -1699,17 +1720,28 @@ button:active {
         font-size: 16px;
     }
     .reach-out-txt span{
-        margin-left: -77%;
+        margin-left: -40%;
+        font-size: 50px;
     }
     .contact-left button{
         margin-left: 200px;
     }
     #footer-2{
-        gap: 200px;
-        padding: 50px 100px 0px 100px;
+        gap: 100px;
+        padding: 50px 80px 0px 80px;
     }
 }
 @media (max-width: 773px) {
+    header{
+        padding: 40px 50px 5px 40px;
+    }
+    .navlist li a{
+        font-size: 17px;
+        margin: -10px 16px 0px 16px;
+    }
+    #nav-btn li a.btn{
+        font-size: 17px;
+    }
     .hero-text h1{
         margin-right: 4%;
     }
@@ -1743,15 +1775,35 @@ button:active {
      .reach-out-txt span{
         margin-left: -80%;
     }
+    .reach-out-img{
+        margin: -480px 20px 0px 0px; 
+    }
+    .reach-out-img img{
+        height: 400px;
+        width: 260px;
+    }
 }
 @media(max-width: 700px) {
+    header{
+        position: fixed;
+    }
+    .logo-img img{
+        width: 40px;
+        height: 40px;
+    }
+    .navlist{
+        display: none;
+    }
+    #nav-btn{
+        display: none;
+    }
     #hero{
         height: 860px;
         display: block;
         justify-content: space-between;
     }
     .hero-text{
-        margin-top: 100px;
+        margin-top: 170px;
         margin-bottom: 40px;
         text-align: right;
         align-content: center;
@@ -1792,6 +1844,7 @@ button:active {
         text-align: center;
         justify-content: center;
         margin: 0px auto 0px auto; 
+        font-size: 50px;
     }
     .about-txt-2{
         text-align: center;
@@ -1817,7 +1870,7 @@ button:active {
         justify-content: center;
         text-align: center;
         margin: 0px auto 0px auto;
-        font-size: 70px;
+        font-size: 50px;
     }
     .port-txt span{
         font-size: 20px;
@@ -1859,6 +1912,9 @@ button:active {
         height: 280px;
         width: 180px;
     }
+    .experience-txt{
+        font-size: 50px;
+    }
 }
 @media(max-width: 650px) {
     #portfolio{
@@ -1868,11 +1924,11 @@ button:active {
         height: 2200px;
     }
     .masonry{
-        gap: 15px;
+        gap: 10px;
     }
     .masonry-2{
-        margin-top: 15px;
-        gap: 15px;
+        margin-top: 10px;
+        gap: 10px;
     }
     .masonry img{
         width: 160px;
@@ -1883,7 +1939,7 @@ button:active {
         height: 250px;
     }
     .judging{
-        gap: 15px;
+        gap: 10px;
     }
     .judg1-1{
         height: 160px;
@@ -1894,7 +1950,7 @@ button:active {
         width: 250px;
     }
     .coach{
-        gap: 15px;
+        gap: 10px;
     }
     .coach-2{
         height: 160px;
@@ -1912,6 +1968,14 @@ button:active {
     .port-bg{
         height: 2400px;
     }
+    .masonry img{
+       height: 390px;
+        width: 260px;
+    }
+    .masonry-2 img{
+       height: 390px;
+        width: 260px;
+    }
 }
 @media(max-width: 436px) {
     .hero-text{
@@ -1923,8 +1987,14 @@ button:active {
     .hero-text h2{
         font-size: 50px;
     }
+    #about{
+        height: 1100px;
+    }
+    .about-bg{
+        height: 1000px;
+    }
     .about-txt{ 
-        font-size: 50px;
+        font-size: 40px;
         line-height: 50px;
     }
     .about-txt-2{
@@ -1936,22 +2006,22 @@ button:active {
         font-size: 16px;
         font-weight: 500;
     }
-     #portfolio{
-        height: 3500px;
+    #portfolio{
+        height: 4100px;
     }
     .port-bg{
-        height: 3300px;
+        height: 4000px;
     }
     .port-txt{
-        font-size: 50px;
+        font-size: 40px;
     }
     .masonry img{
-        height: 280px;
-        width: 190px;
+       height: 390px;
+        width: 260px;
     }
     .masonry-2 img{
-        height: 280px;
-        width: 190px;
+       height: 390px;
+        width: 260px;
     }
     .judg1-1{
        height: 180px;
@@ -1961,13 +2031,26 @@ button:active {
        height: 180px;
        width: 280px;
     }
+    .coach{
+        gap: 20px;
+    }
     .coach-2{
-        height: 180px;
-        width: 280px;
+       height: 200px;
+       width: 300px;
     }
     .coach-1{
-        height: 280px;
-        width: 180px;
+        height: 390px;
+        width: 260px;
+    }
+    .experience-txt{
+        font-size: 40px;
+    }
+    .reach-out-txt{
+        font-size: 40px;
+    }
+    .creative-img{
+        height: 360px;
+        width: 270px;
     }
 }
 @media(max-width: 370px) {
