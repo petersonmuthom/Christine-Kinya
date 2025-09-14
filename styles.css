@@ -1870,7 +1870,7 @@ button:active {
         justify-content: center;
         text-align: center;
         margin: 0px auto 0px auto;
-        font-size: 50px;
+        font-size: 40px;
     }
     .port-txt span{
         font-size: 20px;
@@ -1912,9 +1912,94 @@ button:active {
         height: 280px;
         width: 180px;
     }
-    .experience-txt{
-        font-size: 50px;
+    #experience{
+        height: 7100px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
+    .experience-bg{
+        height: 7000px;
+        align-content: center;
+    }
+    .experience-txt{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 30px auto 0px auto;
+        font-size: 40px;
+    }
+    .experience-txt-2{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+     .experience-img{
+        justify-content: center;
+        margin: 40px auto 0px auto;
+    }
+    .experience-txt-3 span{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 100px auto 0px auto;
+    }
+    .experience-txt-4{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+    .experience-txt-5 span{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 100px auto 0px auto;
+    }
+    .experience-txt-6{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+     .judgeeeyyy-img-1{
+        justify-content: center;
+        margin: 40px auto 0px auto;
+    }
+    .experience-txt-7 span{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 100px auto 0px auto;
+    }
+    .experience-txt-8{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+    .j-img-1{
+        justify-content: center;
+        margin: 40px auto 0px auto;
+    }
+    .experience-txt-9 span{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 100px auto 0px auto;
+    }
+    .experience-txt-10{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
+    .cre-img-1{
+        justify-content: center;
+        margin: 40px auto 0px auto;
+    }
+
 }
 @media(max-width: 650px) {
     #portfolio{
