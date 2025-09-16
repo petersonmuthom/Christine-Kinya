@@ -1941,6 +1941,12 @@ button:active {
         justify-content: center;
         margin: 40px auto 0px auto;
     }
+    .mibs-section img{
+       justify-content: center;
+        margin: 20px 4px  0 4px;
+        align-content: center;
+        text-align: center;
+    }
     .experience-txt-3 span{
         align-content: center;
         justify-content: center;
@@ -1976,6 +1982,10 @@ button:active {
         justify-content: center;
         margin: 40px auto 0px auto;
     }
+    .judgeyy-section img{
+       height: 180px;
+        width: 280px;
+    }
     .experience-txt-7 span{
         align-content: center;
         justify-content: center;
@@ -1993,7 +2003,10 @@ button:active {
         width: 440px;
     }
     .douche-section{
-        gap: 0px;
+        gap: 20px;
+    }
+    .douche-section img{
+        margin: 30px 0 0 0;
     }
     .j-img-1{
         justify-content: center;
@@ -2015,8 +2028,17 @@ button:active {
         width: 440px;
     }
     .cre-img-1{
+        align-content: center;
         justify-content: center;
-        margin: 40px auto 0px auto;
+        margin: 20px 40px 0px 0px; 
+    }
+    .creative-img{
+        height: 250px;
+        width: 190px;
+    }
+    .creative-img-b{
+        height: 270px;
+        width: 190px;
     }
     .experience-txt-11 span{
         align-content: center;
@@ -2073,10 +2095,10 @@ button:active {
 }
 @media(max-width: 650px) {
     #portfolio{
-        height: 2300px;
+        height: 1570px;
     }
     .port-bg{
-        height: 2200px;
+        height: 1470px;
     }
     .masonry{
         gap: 10px;
@@ -2086,6 +2108,7 @@ button:active {
         gap: 10px;
     }
     .masonry img{
+        border-radius: 10px;
         width: 160px;
         height: 250px;
     }
@@ -2114,6 +2137,43 @@ button:active {
     .coach-1{
         width: 160px;
         height: 250px;
+    }
+    .experience-txt{
+        font-size: 40px;
+    }
+    .experience-txt span{
+        font-size: 22px;
+    }
+    .experience-txt-2 span{
+        font-size: 20px;
+    }
+    .judgeyy-section{
+        margin-top: 17px;
+        gap: 17px;
+    }
+    .judgeyy-section img{
+        height: 160px;
+        width: 250px;
+    }
+    .creative-section{
+        margin-top: 17px;
+        gap: 14px;
+    }
+    .creative-img{
+        border-radius: 10px;
+        width: 160px;
+        height: 230px;
+    }
+    .creative-section-2{
+         gap: 14px;
+    }
+    .creative-section-3{
+        gap: 14px;
+    }
+    .creative-img-b{
+        border-radius: 10px;
+        width: 160px;
+        height: 230px;
     }
 }
 @media(max-width: 466px) {
