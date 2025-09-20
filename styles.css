@@ -1796,7 +1796,7 @@ button:active {
         display: none;
     }
     #hero{
-        height: 860px;
+        height: 1060px;
         display: block;
         justify-content: space-between;
     }
@@ -1828,6 +1828,10 @@ button:active {
         align-content: center;
         justify-content: center;
     }
+    .hero-img img{
+        height: 480px;
+        width: 370px;
+    }
     #about{
         height: 1200px;
         flex-direction: column;
@@ -1854,6 +1858,10 @@ button:active {
     .about-img{
         justify-content: center;
         margin: 0;
+    }
+    .about-img img{
+        height: 520px;
+        width: 370px;
     }
     #portfolio{
         height: 1900px;
@@ -1983,6 +1991,10 @@ button:active {
         justify-content: center;
         margin: 40px auto 0px auto;
     }
+    .judgeeeyyy-img-1 img{
+        height: 440px;
+        width: 300px;
+    }
     .judgeyy-section img{
        height: 180px;
         width: 280px;
@@ -2072,10 +2084,10 @@ button:active {
          flex-direction: column;
         justify-content: center;
         text-align: center;
-        height: 1300px;
+        height: 1400px;
     }
     .reach-out-bg{
-        height: 1200px;
+        height: 1300px;
     }
     .reach-out-txt span{
         align-content: center;
@@ -2095,6 +2107,13 @@ button:active {
         justify-content: center;
         text-align: center;
         margin: 40px auto 0px 0px;
+    }
+    .reach-out-img img{
+        width: 400px;
+        height: 570px;
+    }
+    .reach-out-side-2 form{
+        width: 470px;
     }
     .contacts-inputs{
         width: 470px;
@@ -2204,11 +2223,23 @@ button:active {
         width: 160px;
         height: 230px;
     }
+     #reach-out{
+        height: 1230px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+     .reach-out-bg{
+        height: 1190px;
+    }
     .reach-out-side-2{
-        margin: 0;
+        margin: auto;
         text-align: center;
         align-content: center;
         justify-content: center;
+    }
+    .reach-out-side-2 form{
+        width: 350px;
     }
     .contacts-inputs{
         justify-content: center;
@@ -2227,6 +2258,16 @@ button:active {
     }
     .contact-item-1 a span{
         font-size: 15px;
+    }
+    button{
+        margin: auto 70% auto 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .reach-out-img img{
+        width: 340px;
+        height: 500px;
     }
     #footer-2{
         gap: 80px;
