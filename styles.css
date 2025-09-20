@@ -2350,12 +2350,14 @@ button:active {
         height: 190px;
     }
     #experience{
-        height: 6800px;
+        height: 6300px;
     }
     .experience-bg{
-        height: 6700px;
+        padding-top: -100px;
+        height: 6200px;
     }
     .experience-txt{
+        margin-top: -140px;
         font-size: 40px;
     }
     .experience-txt span{
@@ -2472,8 +2474,8 @@ button:active {
         height: 2400px;
     }
     .masonry img{
-       height: 390px;
-        width: 260px;
+       height: 520px;
+        width: 370px;
     }
     .masonry-2 img{
        height: 390px;
