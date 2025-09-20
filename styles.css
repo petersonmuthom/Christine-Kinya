@@ -2420,8 +2420,11 @@ button:active {
         margin: 0px auto 0px auto;
     }
     .reach-out-side-2{
-        text-align: center;  
-        margin: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
     }
     .contacts-inputs{
         width: 350px;
@@ -2441,20 +2444,17 @@ button:active {
         font-size: 15px;
     }
     button{
+        justify-content: unset;
         text-align: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-        margin: 0px auto 0px auto;
     }
     #footer-2{
-        gap: 80px;
-        padding: 50px -30px 0px -30px;
+        gap: 70px;
+        padding: 50px 0px 0px 0px;
     }
     .footer-2-txt{
         font-size: 12px;
     }
-    .footer-2-txt-2{
+    .footer-2-txt-2{        
         font-size: 12px;
     }
     .reach-out-side-1 {
