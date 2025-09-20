@@ -833,9 +833,9 @@ section {
     display: block;
     color:#ffffffee ;
     font-size: 80px;
-       font-family: "Courgette", cursive;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Courgette", cursive;
+    font-weight: 300;
+    font-style: normal;
 }
 .reach-out-img{
     flex: 1;
@@ -2081,7 +2081,7 @@ button:active {
         margin: 40px auto 0px auto;
     }
     #reach-out{
-         flex-direction: column;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
         height: 1400px;
@@ -2089,12 +2089,16 @@ button:active {
     .reach-out-bg{
         height: 1300px;
     }
+    .reach-out-txt{
+        text-align: center;  
+        margin: 0px;
+    }
     .reach-out-txt span{
-        align-content: center;
-        justify-content: center;
         text-align: center;
-        margin: -80px 0px auto -70px;
-   
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
     }
     .reach-out-side-2{
         align-content: center;
@@ -2232,6 +2236,17 @@ button:active {
      .reach-out-bg{
         height: 1190px;
     }
+    .reach-out-txt{
+        text-align: center;  
+        margin: 0px;
+    }
+    .reach-out-txt span{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
     .reach-out-side-2{
         margin: auto;
         text-align: center;
@@ -2281,10 +2296,6 @@ button:active {
     }
     .reach-out-side-1 {
         gap: 7px;
-    }
-    .reach-out-side-2{
-        justify-content: center;
-        margin: 0;
     }
 }
 @media(max-width: 572px) {
@@ -2397,9 +2408,20 @@ button:active {
         width: 130px;
         height: 190px;
     }
+    .reach-out-txt{
+        text-align: center;  
+        margin: 0px;
+    }
+    .reach-out-txt span{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
+    }
     .reach-out-side-2{
-        justify-content: center;
-        margin: auto auto auto auto;
+        text-align: center;  
+        margin: 0px;
     }
     .contacts-inputs{
         width: 350px;
@@ -2417,6 +2439,13 @@ button:active {
     }
     .contact-item-1 a span{
         font-size: 15px;
+    }
+    button{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0px auto 0px auto;
     }
     #footer-2{
         gap: 80px;
