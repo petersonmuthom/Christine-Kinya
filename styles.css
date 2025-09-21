@@ -229,7 +229,7 @@ section {
     margin: -380px 300px 0px 0px;
 }
 .hero-img img{
-    border-radius: 20px;
+    border-radius: 30px;
     height: 470px;
     width: 370px;
 }
@@ -290,7 +290,7 @@ section {
 .about-img img{
     height: 540px;
     width: 370px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 #portfolio{
     height: 2500px;
@@ -2657,6 +2657,7 @@ button:active {
         font-size: 50px;
     }
     .hero-img img{
+        border-radius: 30px;
         height: 380px;
         width: 300px;
     }
@@ -2681,6 +2682,7 @@ button:active {
         font-weight: 500;
     }
     .about-img img{
+        border-radius: 30px;
         height: 440px;
         width: 300px;
     }
@@ -2900,6 +2902,39 @@ button:active {
      .about-txt-2{
         font-size: 16px;
         font-weight: 500;
+        width: 300px;
+    }
+    #experience{
+        height: 10900px;
+    }
+    .experience-bg{
+        height: 10800px;
+    }
+    .experience-txt-2{
+        width: 300px;
+    }
+    .experience-txt-4 {
+        width: 300px;
+    }
+    .experience-txt-6 {
+        width: 300px;
+    }
+    .experience-txt-8 {
+        width: 300px;
+    }
+    .experience-txt-10 {
+        width: 300px;
+    }
+    .experience-txt-12 {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .experience-txt-11{
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
         width: 300px;
     }
      #footer-2{
