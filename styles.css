@@ -2609,18 +2609,39 @@ button:active {
         height: 490px;
         width: 370px;
     }
-    .footer-logo-img{
-
-        gap: 10px;
+     #footer{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0;
     }
-    .reach-out-side-1 {
-        gap: 10px;
+    .reach-out-side-1{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0 auto;
     }
-    .reach-out-side-1-1 {
-        gap: 10px;
+     .contact-item{
+        margin-top: 20px;
     }
-
- 
+    .contact-item-1{
+        margin-top: 20px;
+    }
+    .reach-out-side-1-1{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+    #footer-2{
+        gap: 60px;
+        padding: 50px -10px 0px -10px;
+    }
+    .footer-2-txt{
+        font-size: 12px;
+    }
+    .footer-2-txt-2{        
+        font-size: 12px;
+    }
 }
 @media(max-width: 446px) {
     #hero{
@@ -2641,6 +2662,7 @@ button:active {
     }
     #about{
         height: 1100px;
+        padding: 0px 10px 0px 10px;
     }
     .about-bg{
         height: 1000px;
@@ -2664,6 +2686,7 @@ button:active {
     }
     #portfolio{
         height: 4140px;
+        padding: 0px 10px 0px 10px;
     }
     .port-bg{
         height: 4040px;
@@ -2700,6 +2723,7 @@ button:active {
     }
     #experience{
         height: 8000px;
+        padding: 0px 10px 0px 10px;
     }
     .experience-bg{
         height: 7900px;
@@ -2708,12 +2732,18 @@ button:active {
         font-size: 40px;
     }
     .experience-txt-2{
-        font-weight: 500;
         width: 330px;
+    }
+    .experience-txt-2 span{
+        font-size: 16px;
+        font-weight: 500;
     }
     .experience-img img{
         height: 440px;
         width: 300px;
+    }
+    #reach-out{
+        padding: 0px 10px 0px 10px;
     }
     .reach-out-txt{
         font-size: 40px;
@@ -2731,22 +2761,28 @@ button:active {
        width: 300px;
     }
     #experience{
-        height: 11600px;
+        height: 10700px;
     }
     .experience-bg{
-        height: 11500px;
+        height: 10600px;
     }
     .experience-txt-4{
-        font-weight: 500;
         width: 330px;
+    }
+    .experience-txt-4 span{
+        font-size: 16px;
+        font-weight: 500;
     }
     .douche-section img{
         height: 400px;
         width: 270px;
     }
     .experience-txt-6{
-        font-weight: 500;
         width: 330px;
+    }
+    .experience-txt-6 span{
+        font-size: 16px;
+        font-weight: 500;
     }
     .judgeeeyyy-img-1 img{
         height: 400px;
@@ -2757,29 +2793,107 @@ button:active {
         width: 300px;
     }
     .experience-txt-8{
-         font-weight: 500;
         width: 330px;
+    }
+    .experience-txt-8 span{
+        font-size: 16px;
+        font-weight: 500;
     }
     .j-img-1 img{
         height: 400px;
         width: 270px;
     }
     .experience-txt-10{
-        font-weight: 500;
         width: 330px;
     }
+    .experience-txt-10 span{
+        font-size: 16px;
+        font-weight: 500;
+    }
     .cre-img-1 img{
-        height: 400px;
+        height: 340px;
         width: 270px;
     }
     .creative-img{
-        height: 400px;
+        height: 350px;
         width: 270px;
     }
     .creative-img-b{
         height: 400px;
         width: 270px;
     }
+    .experience-txt-12 span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .experience-txt-11 span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .newspaper-img img{
+        height: 350px;
+        width: 270px;
+    }
+    .reach-out-side-2 form{
+        width: 310px;
+    }
+    .reach-out-side-2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .contacts-inputs{
+        justify-content: center;
+        width: 310px;
+        height: 47px;
+        font-size: 16px;
+    }
+    .reach-out-img img{
+        width: 300px;
+        height: 470px;
+    }
+    #the-end{
+        height: 70px;
+    }
+    #the-end p {
+        font-size: 50px;
+    }
+    #footer{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+    .reach-out-side-1{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+     .contact-item{
+        margin-top: 20px;
+    }
+    .contact-item-1{
+        margin-top: 20px;
+    }
+    .reach-out-side-1-1{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+    }
+    #footer-2{
+        gap: 50px;
+        padding: 50px -20px 0px -20px;
+    }
+    .footer-2-txt{
+        font-size: 10px;
+    }
+    .footer-2-txt-2{        
+        font-size: 10px;
+    }
+    
 }
 
 @media(max-width: 370px) {
@@ -2787,6 +2901,16 @@ button:active {
         font-size: 16px;
         font-weight: 500;
         width: 300px;
+    }
+     #footer-2{
+        gap: 40px;
+        padding: 50px -30px 0px -30px;
+    }
+    .footer-2-txt{
+        font-size: 10px;
+    }
+    .footer-2-txt-2{        
+        font-size: 10px;
     }
 }
 
