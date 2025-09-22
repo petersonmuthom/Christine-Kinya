@@ -1830,6 +1830,7 @@ button:active {
         justify-content: center;
         background:  rgb(0, 0, 0);
         border: 0.7px solid var(--text-color2);
+        box-shadow: 0 8px 20px rgb(0, 0, 0);
         border-radius: 10px;
         text-align: center;
         align-items: center;
