@@ -1829,7 +1829,7 @@ button:active {
         left: 57%;
         justify-content: center;
         background:  rgb(0, 0, 0);
-        border: 1.4px solid var(--text-color2);
+        border: 0.7px solid var(--text-color2);
         border-radius: 10px;
         text-align: center;
         align-items: center;
@@ -2197,6 +2197,10 @@ button:active {
 
 }
 @media(max-width: 650px) {
+    .navlist{
+        width: 40%;
+        left: 57%;
+    }
     #portfolio{
         height: 1570px;
     }
@@ -2369,6 +2373,10 @@ button:active {
     }
 }
 @media(max-width: 572px) {
+    .navlist{
+        width: 44%;
+        left: 52.2%;
+    }
     #portfolio{
         height: 1570px;
     }
@@ -2534,6 +2542,10 @@ button:active {
     }
 }
 @media(max-width: 500px) {
+    .navlist{
+        width: 47%;
+        left: 49%;
+    }
     .about-txt-2{
         width: 400px;
     }
@@ -2714,6 +2726,10 @@ button:active {
     }
 }
 @media(max-width: 446px) {
+    .navlist{
+        width: 54%;
+        left: 44%;
+    }
     #hero{
         height: 900px;
     }
@@ -2969,6 +2985,10 @@ button:active {
 }
 
 @media(max-width: 370px) {
+    .navlist{
+        width: 57%;
+        left: 40%;
+    }
      .about-txt-2{
         font-size: 16px;
         font-weight: 500;
