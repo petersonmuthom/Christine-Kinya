@@ -48,3 +48,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+function toggleMenu() {
+  document.querySelector(".navlist").classList.toggle("active");
+  document.querySelector(".hamburger").classList.toggle("active");
+}
+document.addEventListener("click", function (event) {
+  const navList = document.querySelector(".navlist");
+  const hamburger = document.querySelector(".hamburger");
+
+
+  if (navList.classList.contains("active")) {
+    if (!navList.contains(event.target) && !hamburger.contains(event.target)) {
+      navList.classList.remove("active");
+      hamburger.classList.remove("active");
+    }
+  }
+});
