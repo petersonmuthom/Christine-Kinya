@@ -71,17 +71,15 @@ header{
     align-items: center;
 }
 .bar{
-    margin: 7px 0px;
-    width: 37px;
-    height: 3px;
-    background-color: var(--text-color2);
-    transition: 0.3s;
+    margin: 4px 0px;
+    width: 40px;
+    height: 2.4px;
+    background-color: #AF7817 ;
+    transition: 0.2s;
 }
 .bar-3{
-    width: 37px;
-    height: 3px;
-    background-color: var(--text-color2);
-    transition: 0.3s;
+    opacity: 0;
+    transition: 0.1s;
 }
 .navlist{
     justify-content: right;
@@ -1845,13 +1843,13 @@ button:active {
     }
     /*    X-transition for the hamburger :)    */
     .hamburger.active .bar:nth-child(1) {
-        transform: rotate(49deg) translate(6px, 5px);
+        transform: rotate(49deg) translate(2.9px, 5px);
     }
     .hamburger.active .bar:nth-child(3) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(2) {
-        transform: rotate(-48deg) translate(6px, -6px);
+        transform: rotate(-48deg) translate(2.9px, -6px);
     }
     .navlist li a {
        font-size: 20px;
