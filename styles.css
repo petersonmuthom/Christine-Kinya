@@ -1858,8 +1858,8 @@ button:active {
        padding: 15px 10px 15px 10px;
   }
   .navlist a{
-         margin: 20px 30px 0px 30px;
-         text-underline-offset: -30px;
+        margin: 20px 30px 0px 30px;
+        text-underline-offset: -30px;
   }
     #nav-btn{
         display: none;
