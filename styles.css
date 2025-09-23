@@ -1080,6 +1080,30 @@ button:active {
     font-size: 16px;
     font-style: normal;
 }
+@media screen and (min-width: 1600px) {
+    body{
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    header{
+        padding: auto 100px auto 100px;
+    }
+    #nav-btn li a.btn{
+        margin: -20px 170px 0px 0px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    header{
+        padding: auto 100px auto 100px;
+    }
+    #nav-btn li a.btn{
+        margin: -20px 170px 0px 0px;
+    }
+}
 @media (max-width: 1330px) {
     .hero-text{
         margin: 220px 0px 0px 14%;    
